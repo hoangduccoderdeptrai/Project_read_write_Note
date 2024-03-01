@@ -1,1 +1,3 @@
-console.log("hello anh yeu em")
+if('t'){
+    console.log('con cho nay')
+}
