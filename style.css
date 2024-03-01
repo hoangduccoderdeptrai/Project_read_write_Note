@@ -1,0 +1,116 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+body {
+    background-color: rgb(82, 86, 89);
+}
+img{
+    width: 150px;
+}
+h3 {
+    margin-block: 30px 10px;
+}
+article.cv-page {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-page {
+    display: grid;
+    grid-template-columns: 35% 60%;
+   
+    max-width: 800px;
+    width: 100%;
+    height: 100vh;
+   
+}
+/* -------title page------------------ */
+.title-page {
+    background-color: #335384;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+ul.list-item1 {
+    list-style-type: none;
+}
+
+li.item1 {
+    line-height: 2rem;
+}
+.bar{
+    display: flex;
+}
+label.bar-item1 {
+    width: 90px;
+    height: 4px;
+    background-color: #8CC0DE;
+}
+
+label.bar-item2 {
+    width: 90px;
+    height: 4px;
+    background-color: #ededed;
+}
+
+
+
+label.bar-item3 {
+    width: 160px;
+    height: 4px;
+    background-color: #8CC0DE;
+}
+
+label.bar-item4 {
+    width: 20px;
+    height: 4px;
+    background-color: #ededed;
+}
+.contact {
+    line-height: 2.5rem;
+    margin-top: -100px;
+}
+.skills{
+    margin-top: -60px;
+}
+
+
+/* ----------------container page */
+.container-page {
+    padding-block-start: 40px;
+    padding-inline: 40px;
+    background-color: #fff;
+}
+li.item1 {
+    display: grid;
+}
+
+.experience {
+    line-height: 1.5rem;
+}
+h1{
+    color: #335384;
+}
+
+h3{
+    color: #8CC0DE;
+}
+
+hr {
+    width: 60px;
+ 
+    height: 3px;
+    margin-top: 5px;
+    background: black;
+}

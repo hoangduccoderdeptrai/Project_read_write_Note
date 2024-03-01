@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+body {
+    background-color: rgb(82, 86, 89);
+}
+img{
+    width: 150px;
+}
+h3 {
+    margin-block: 30px 10px;
+}
+article.cv-page {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-page {
+    display: grid;
+    grid-template-columns: 35% 60%;
+   
+    max-width: 800px;
+    width: 100%;
+    height: 100vh;
+   
+}
+/* -------title page------------------ */
+.title-page {
+    background-color: #335384;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+ul.list-item1 {
+    list-style-type: none;
+}
+
+li.item1 {
+    line-height: 2rem;
+}
+.bar{
+    display: flex;
+}
+label.bar-item1 {
+    width: 90px;
+    height: 4px;
+    background-color: #8CC0DE;
+}
+
+label.bar-item2 {
+    width: 90px;
+    height: 4px;
+    background-color: #ededed;
+}
+
+
+
+label.bar-item3 {
+    width: 160px;
+    height: 4px;
+    background-color: #8CC0DE;
+}
+
+label.bar-item4 {
+    width: 20px;
+    height: 4px;
+    background-color: #ededed;
+}
+.contact {
+    line-height: 2.5rem;
+    margin-top: -100px;
+}
+.skills{
+    margin-top: -60px;
+}
+
+
+/* ----------------container page */
+.container-page {
+    padding-block-start: 40px;
+    padding-inline: 40px;
+    background-color: #fff;
+}
+li.item1 {
+    display: grid;
+}
+
+.experience {
+    line-height: 1.5rem;
+}
+h1{
+    color: #335384;
+}
+
+h3{
+    color: #8CC0DE;
+}
+
+hr {
+    width: 60px;
+ 
+    height: 3px;
+    margin-top: 5px;
+    background: black;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your CV</title>
+   
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <main class="cv">
+        <article class="cv-page">
+            <div class="detail-page">
+                <div class="title-page">
+                    <figure>
+                        <img src="lehoangduc_img.png" alt="representation">
+                    </figure>
+                    <div class="contact">
+                        <h3>CONTACT</h3>
+                        <ul class="list-item1">
+                            <li class="item">
+                                <span>
+                                    <i class='bx bxs-envelope'></i>
+                                </span>
+                                <label>duclehoang@gmail.com</label>
+                            </li>
+                            <li class="item">
+                                <span>
+                                    <i class='bx bxs-map'></i>
+                                </span>
+                                <label>Tp HCM, VIỆT NAM</label>
+                            </li>
+                            <li class="item">
+                                <span>
+                                    <i class='bx bxs-phone'></i>
+                                </span>
+                                <label>duclehoang@gmail.com</label>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="skills">
+                        <h3>SKILLS</h3>
+                        <ul class="list-item1">
+                            <li class="item1">
+                                <span>
+                                    HTML
+                                </span>
+                                <div class="bar">
+                                    <label class="bar-item1"></label>
+                                    <label class="bar-item2"></label>
+                                </div>
+                            </li>
+                            <li class="item1">
+                                <span>
+                                    JavaScript
+                                </span>
+                                <div class="bar">
+                                    <label class="bar-item1"></label>
+                                    <label class="bar-item2"></label>
+                                </div>
+                               
+                            </li>
+                            <li class="item1">
+                                <span>
+                                    CSS
+                                </span>
+                                <div class="bar">
+                                    <label class="bar-item3"></label>
+                                    <label class="bar-item4"></label>
+                                </div>
+                               
+                            </li>
+                            <li class="item1">
+                                <span>
+                                    Node.js
+                                </span>
+                                <div class="bar">
+                                    <label class="bar-item1"></label>
+                                    <label class="bar-item2"></label>
+                                </div>
+                               
+                            <li class="item1">
+                                <span>
+                                    MongoDB
+                                </span>
+                                <div class="bar">
+                                    <label class="bar-item1"></label>
+                                    <label class="bar-item2"></label>
+                                </div>
+                               
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container-page">
+                    <h1>LÊ HOÀNG ĐỨC</h1>
+                    <hr>
+                    <h3>Fresh Developer</h3>
+                    <div class="resume">
+                        <h3>RESUME</h3>
+                        <ul class="list-item">
+                            <li class="item">
+                                Self-independent, reliable, and friendly individual who works hard
+                                to achieve his goals
+
+                            </li>
+                            <li class="item">
+                                Adaptable quickly, and organized well. Interested in learning the
+                                latest web & software technologies quickly.
+                            </li>
+                            <li class="item">
+                                Able to work well in teams as well as individually. My future goal is
+                                to become a senior full-stack developer
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- experience -->
+                    <div class="experience">
+                        <h3>EXPERIENCE</h3>
+                        <h4>Development Engineer</h4>
+                        <div>
+                            <label for="">Google | 20-3-2023 - 20-2-2024</label>
+                        </div>
+                        <h6>Developing Node JS and JS Web apps</h6>
+
+                    </div>
+                    <!-- education -->
+                    <div class="experience">
+                        <h3>EDUCATION</h3>
+                        <h4>Infomation Technology</h4>
+                        <div>
+                            <label for="">UIT | 2022 - 2026</label>
+                        </div>
+                        <h6>GPA 2.0</h6>
+
+                    </div>
+                    <!-- PROJECTS -->
+                    <div class="projects">
+                        <h3>PROJECTS</h3>
+                        <h4>Write CV by using HTML and CSS</h4>
+                        <div>
+                            <label for="">6H - 11H</label>
+                        </div>
+                        <h6>Apply the knowledge that you have studied</h6>
+
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
